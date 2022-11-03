@@ -5,7 +5,7 @@ import '../css/style.css';
 
 const main = document.querySelector('#main');
 main.innerHTML = '';
-
+// loadSpinner creates new context?
 const loadSpinner = () => {
   const spinner = document.createElement('div');
   spinner.classList.add('spinner');
